@@ -182,9 +182,9 @@ packages:
   - bind-utils
   - chrony
   - curl
-  - dejavu-fonts-common
-  - dejavu-sans-mono-fonts
-  - dejavu-serif-fonts
+  # - dejavu-fonts-common
+  # - dejavu-sans-mono-fonts
+  # - dejavu-serif-fonts
   - feh
   - firefox
   - flatpak
