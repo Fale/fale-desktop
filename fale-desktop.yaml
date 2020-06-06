@@ -180,11 +180,12 @@ packages:
   - alsa-utils
   - bash-completion
   - bind-utils
+  - brightnessctl
   - chrony
   - curl
-  # - dejavu-fonts-common
-  # - dejavu-sans-mono-fonts
-  # - dejavu-serif-fonts
+  - dejavu-fonts-all
+  - dejavu-sans-mono-fonts
+  - dejavu-serif-fonts
   - feh
   - firefox
   - flatpak
