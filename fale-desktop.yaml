@@ -1,0 +1,235 @@
+ref: fedora/32/${basearch}/fale-desktop
+
+rojig:
+  name: fale-desktop
+  summary: "Fale immutable desktop OS"
+  license: MIT
+
+automatic_version_prefix: "32"
+mutate-os-release: "32"
+
+repos:
+  - fedora-32-updates
+  - fedora-32
+  - rpmfusion-free
+  - rpmfusion-free-updates
+
+install-langs:
+  - en_US
+
+selinux: true
+documentation: true
+boot_location: new
+etc-group-members:
+  - wheel
+tmp-is-dir: true
+
+postprocess-script: post.sh
+
+ignore-removed-users:
+  - root
+ignore-removed-groups:
+  - root
+check-passwd: { type: file, filename: passwd }
+check-groups: { type: file, filename: group }
+
+default_target: multi-user.target
+
+packages:
+  # Boot
+  - efibootmgr
+  - grub2
+  - grub2-efi-x64
+  - kernel-core
+  - kernel-modules
+  - kernel-modules-extra
+  - linux-firmware
+  - microcode_ctl
+  - ostree-grub2
+  - plymouth
+  - plymouth-system-theme
+  - fwupd
+  - bolt
+
+  # Base
+  - acl
+  - attr
+  - audit
+  - avahi
+  - basesystem
+  - bash
+  - chrony
+  - cryptsetup
+  - file
+  - filesystem
+  - hostname
+  - logrotate
+  - mcelog
+  - mdadm
+  - nss-mdns
+  - passwd
+  - pciutils
+  - polkit
+  - rng-tools
+  - rootfiles
+  - setup
+  - shadow-utils
+  - shim
+  - systemd
+  - systemd-udev
+  - time
+  - util-linux
+  - vconfig
+  - which
+
+  # SELinux
+  - selinux-policy-targeted
+  - policycoreutils
+  - policycoreutils-python-utils
+
+  # Perf
+  - perf
+
+  # Network
+  - bind-utils
+  - bridge-utils
+  - dnsmasq
+  - ethtool
+  - iproute
+  - iptables
+  - nftables
+  - iputils
+  - iwd
+  - iwl7260-firmware
+
+  - socat
+  - tcpdump
+  - NetworkManager
+  - wpa_supplicant
+
+  # Network filesystems
+  - cifs-utils
+  - samba-client
+  - nfs-utils
+
+  # Disk management
+  - e2fsprogs
+  - iotop
+  - parted
+  - squashfs-tools
+
+  # Multi-user
+  - bash-completion
+  - bc
+  - bzip2
+  - curl
+  - dconf
+  - gnupg2
+  - htop
+  - less
+  - lsof
+  - man-db
+  - man-pages
+  - mtr
+  - ncdu
+  - net-tools
+  - nmap-ncat
+  - nss-altfiles
+  - openssh-clients
+  - openssh-server
+  - procps-ng
+  - psmisc
+  - p7zip
+  - rsync
+  - strace
+  - sudo
+  - tar
+  - tmux
+  - tree
+  - unzip
+  - vim-enhanced
+  - vlock
+  - wget
+  - zip
+
+  # Devel
+  - ansible
+  - elfutils-libelf-devel
+  - glibc-devel
+  - make
+  #- kernel-devel
+  #- libselinux-python
+
+  # Container
+  - buildah
+  - fedora-repos-ostree
+  - git-core
+  - lvm2
+  - podman
+  - rpm
+  - rpm-ostree
+  - skopeo
+  - toolbox
+
+  # QEMU guest
+  - qemu-guest-agent
+  - spice-vdagent
+
+  # Applications
+  - alsa-plugins-pulseaudio
+  - alsa-utils
+  - bash-completion
+  - bind-utils
+  - chrony
+  - curl
+  - dejavu-fonts-common
+  - dejavu-sans-mono-fonts
+  - dejavu-serif-fonts
+  - feh
+  - firefox
+  - flatpak
+  - fontawesome-fonts
+  - fwupd
+  - git
+  - gstreamer1-plugins-bad-free
+  - gstreamer1-plugins-bad-free-extras
+  - gstreamer1-plugins-bad-free-fluidsynth
+  - gstreamer1-plugins-bad-free-wildmidi
+  - gstreamer1-plugins-bad-freeworld
+  - gstreamer1-plugins-base
+  - gstreamer1-plugins-good
+  - gstreamer1-plugins-good-extras
+  - gstreamer1-plugins-good-gtk
+  - gstreamer1-plugins-good-qt
+  - gstreamer1-libav
+  - i3status
+  - ImageMagick
+  - kitty
+  - make
+  - mesa-dri-drivers
+  - most
+  - mpv
+  - NetworkManager-openvpn
+  - NetworkManager-tui
+  - NetworkManager-wifi
+  - NetworkManager-wwan
+  - overpass-fonts
+  - overpass-mono-fonts
+  - pcsc-lite
+  - pavucontrol
+  - pinentry
+  - podman
+  - pulseaudio
+  - pulseaudio-utils
+  - sway
+  - swaylock
+  - tar
+  - task
+  - tig
+  - upower
+  - vim
+  - wget
+  - whois
+  - xrdb
+  - zathura
+  - zathura-plugins-all
