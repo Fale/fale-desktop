@@ -178,6 +178,7 @@ packages:
   # Applications
   - alsa-plugins-pulseaudio
   - alsa-utils
+  - awscli
   - bash-completion
   - bind-utils
   - brightnessctl
@@ -222,6 +223,7 @@ packages:
   - podman
   - pulseaudio
   - pulseaudio-utils
+  - s3cmd
   - sway
   - swaylock
   - tar
