@@ -193,6 +193,7 @@ packages:
   - fontawesome-fonts
   - fwupd
   - git
+  - golang-github-acme-lego
   - gstreamer1-plugins-bad-free
   - gstreamer1-plugins-bad-free-extras
   - gstreamer1-plugins-bad-free-fluidsynth
