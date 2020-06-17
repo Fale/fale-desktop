@@ -229,6 +229,7 @@ packages:
   - swaylock
   - tar
   - task
+  - testssl
   - tig
   - upower
   - vim
