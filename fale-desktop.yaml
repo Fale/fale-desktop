@@ -5,6 +5,7 @@ rojig:
   summary: "Fale immutable desktop OS"
   license: MIT
 
+releasever: "32"
 automatic_version_prefix: "32"
 mutate-os-release: "32"
 
@@ -13,6 +14,8 @@ repos:
   - fedora-32
   - rpmfusion-free
   - rpmfusion-free-updates
+  - copr:copr.fedorainfracloud.org:daftaupe:gopass
+  - copr:copr.fedorainfracloud.org:pschyska:alacritty
 
 install-langs:
   - en_US
@@ -176,6 +179,7 @@ packages:
   - spice-vdagent
 
   # Applications
+  - alacritty # from https://copr.fedorainfracloud.org/coprs/pschyska/alacritty/
   - alsa-plugins-pulseaudio
   - alsa-utils
   - awscli
@@ -189,11 +193,13 @@ packages:
   - dejavu-serif-fonts
   - feh
   - firefox
+  - firefox-wayland
   - flatpak
   - fontawesome-fonts
   - fwupd
   - git
   - golang-github-acme-lego
+  - gopass # from https://copr.fedorainfracloud.org/coprs/daftaupe/gopass/
   - gstreamer1-plugins-bad-free
   - gstreamer1-plugins-bad-free-extras
   - gstreamer1-plugins-bad-free-fluidsynth
