@@ -1,3 +1,8 @@
+build:
+	rm -Rf /ostree/fale-desktop
+	ostree init --repo=/ostree/fale-desktop
+	rpm-ostree compose tree -r /ostree/fale-desktop --workdir /ostree/fale-desktop/tmp fale-desktop.yaml
+
 all:
 	ostree init --repo=/ostree/fale-desktop
 	rpm-ostree compose tree -r /ostree/fale-desktop --workdir /ostree/fale-desktop/tmp fale-desktop.yaml
