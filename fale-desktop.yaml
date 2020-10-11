@@ -198,6 +198,7 @@ packages:
   - fontawesome-fonts
   - fwupd
   - git
+  - golang
   - golang-github-acme-lego
   - gopass # from https://copr.fedorainfracloud.org/coprs/daftaupe/gopass/
   - gstreamer1-plugins-bad-free
