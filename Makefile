@@ -1,9 +1,10 @@
 build:
-	rm -Rf /ostree/fale-desktop
+	rm -Rf /ostree/fale-desktop/tmp
 	ostree init --repo=/ostree/fale-desktop
 	rpm-ostree compose tree -r /ostree/fale-desktop --workdir /ostree/fale-desktop/tmp fale-desktop.yaml
 
 all:
+	rm -Rf /ostree/fale-desktop/tmp
 	ostree init --repo=/ostree/fale-desktop
 	rpm-ostree compose tree -r /ostree/fale-desktop --workdir /ostree/fale-desktop/tmp fale-desktop.yaml
 	ostree pull-local /ostree/fale-desktop fedora/32/x86_64/fale-desktop
