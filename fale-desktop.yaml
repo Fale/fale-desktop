@@ -192,7 +192,6 @@ packages:
   - dejavu-sans-mono-fonts
   - dejavu-serif-fonts
   - feh
-  - firefox
   - firefox-wayland
   - flatpak
   - fontawesome-fonts
