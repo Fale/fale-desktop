@@ -1,6 +1,0 @@
-[fedora-32]
-name=Fedora 32 $basearch
-mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-32&arch=$basearch
-enabled=0
-gpgcheck=1
-metadata_expire=1d

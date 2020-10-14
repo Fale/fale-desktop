@@ -1,17 +1,17 @@
-ref: fedora/32/${basearch}/fale-desktop
+ref: fedora/33/${basearch}/fale-desktop
 
 rojig:
   name: fale-desktop
   summary: "Fale immutable desktop OS"
   license: MIT
 
-releasever: "32"
-automatic_version_prefix: "32"
-mutate-os-release: "32"
+releasever: "33"
+automatic_version_prefix: "33"
+mutate-os-release: "33"
 
 repos:
-  - fedora-32-updates
-  - fedora-32
+  - fedora
+  - fedora-updates
   - rpmfusion-free
   - rpmfusion-free-updates
   - copr:copr.fedorainfracloud.org:daftaupe:gopass
@@ -179,7 +179,7 @@ packages:
   - spice-vdagent
 
   # Applications
-  - alacritty # from https://copr.fedorainfracloud.org/coprs/pschyska/alacritty/
+  # - alacritty # from https://copr.fedorainfracloud.org/coprs/pschyska/alacritty/ # conflict on ncurses
   - alsa-plugins-pulseaudio
   - alsa-utils
   - awscli
