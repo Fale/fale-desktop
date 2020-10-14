@@ -1,4 +1,4 @@
-ref: fedora/33/${basearch}/fale-desktop
+ref: fedora/${basearch}/fale-desktop
 
 rojig:
   name: fale-desktop
@@ -156,12 +156,9 @@ packages:
   - zip
 
   # Devel
-  - ansible
   - elfutils-libelf-devel
   - glibc-devel
   - make
-  #- kernel-devel
-  #- libselinux-python
 
   # Container
   - buildah

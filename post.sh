@@ -21,3 +21,6 @@ for x in /usr/sbin/glibc_post_upgrade.*; do
         ln -srf /usr/bin/true ${x}
     fi
 done
+
+# Make sure systemd-resolve is in use
+ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
