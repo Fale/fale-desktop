@@ -15,7 +15,6 @@ repos:
   - rpmfusion-free
   - rpmfusion-free-updates
   - copr:copr.fedorainfracloud.org:daftaupe:gopass
-  - copr:copr.fedorainfracloud.org:pschyska:alacritty
 
 install-langs:
   - en_US
@@ -176,7 +175,6 @@ packages:
   - spice-vdagent
 
   # Applications
-  # - alacritty # from https://copr.fedorainfracloud.org/coprs/pschyska/alacritty/ # conflict on ncurses
   - alsa-plugins-pulseaudio
   - alsa-utils
   - awscli
@@ -188,6 +186,7 @@ packages:
   - dejavu-fonts-all
   - dejavu-sans-mono-fonts
   - dejavu-serif-fonts
+  - eosrei-emojione-fonts
   - feh
   - firefox-wayland
   - flatpak
@@ -227,6 +226,7 @@ packages:
   - podman
   - pulseaudio
   - pulseaudio-utils
+  - rust-alacritty
   - s3cmd
   - sway
   - swaylock
