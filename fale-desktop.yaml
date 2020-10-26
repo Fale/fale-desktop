@@ -226,7 +226,7 @@ packages:
   - podman
   - pulseaudio
   - pulseaudio-utils
-  - rust-alacritty
+  #- rust-alacritty
   - s3cmd
   - sway
   - swaylock
@@ -238,6 +238,7 @@ packages:
   - vim
   - wget
   - whois
+  - xdg-utils
   - xrdb
   - zathura
   - zathura-plugins-all
