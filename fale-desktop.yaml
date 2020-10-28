@@ -175,6 +175,7 @@ packages:
   - spice-vdagent
 
   # Applications
+  - alacritty
   - alsa-plugins-pulseaudio
   - alsa-utils
   - awscli
@@ -226,7 +227,6 @@ packages:
   - podman
   - pulseaudio
   - pulseaudio-utils
-  #- rust-alacritty
   - s3cmd
   - sway
   - swaylock
