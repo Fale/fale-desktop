@@ -215,6 +215,7 @@ packages:
   - mesa-dri-drivers
   - most
   - mpv
+  - neovim
   - NetworkManager-openvpn
   - NetworkManager-tui
   - NetworkManager-wifi
