@@ -211,7 +211,6 @@ packages:
   - hugo
   - i3status
   - ImageMagick
-  - kitty
   - make
   - mesa-dri-drivers
   - most
