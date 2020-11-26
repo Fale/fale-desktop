@@ -236,7 +236,6 @@ packages:
   - testssl
   - tig
   - upower
-  - vim
   - wget
   - whois
   - xdg-utils
