@@ -220,6 +220,7 @@ packages:
   - NetworkManager-tui
   - NetworkManager-wifi
   - NetworkManager-wwan
+  - openssl
   - overpass-fonts
   - overpass-mono-fonts
   - pcsc-lite
@@ -233,7 +234,6 @@ packages:
   - swaylock
   - tar
   - task
-  - testssl
   - tig
   - upower
   - wget
@@ -242,3 +242,4 @@ packages:
   - xrdb
   - zathura
   - zathura-plugins-all
+  - zbar
