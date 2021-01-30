@@ -194,6 +194,7 @@ packages:
   - fontawesome-fonts
   - fwupd
   - git
+  - git-annex
   - golang
   - golang-github-acme-lego
   - gopass # from https://copr.fedorainfracloud.org/coprs/daftaupe/gopass/
