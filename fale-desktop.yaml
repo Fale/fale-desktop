@@ -231,6 +231,7 @@ packages:
   - pulseaudio
   - pulseaudio-utils
   - s3cmd
+  - sshfs
   - sway
   - swaylock
   - tar
