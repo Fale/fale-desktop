@@ -192,6 +192,7 @@ packages:
   - firefox-wayland
   - flatpak
   - fontawesome-fonts
+  - freerdp
   - fwupd
   - git
   - git-annex
@@ -230,6 +231,7 @@ packages:
   - podman
   - pulseaudio
   - pulseaudio-utils
+  - pulseeffects
   - s3cmd
   - sshfs
   - sway
