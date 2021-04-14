@@ -170,9 +170,11 @@ packages:
   - skopeo
   - toolbox
 
-  # QEMU guest
+  # virtualization
   - qemu-guest-agent
   - spice-vdagent
+  - qemu-kvm
+  - libvirt
 
   # Applications
   - alacritty
