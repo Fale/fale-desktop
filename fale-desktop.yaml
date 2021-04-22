@@ -175,6 +175,8 @@ packages:
   - spice-vdagent
   - qemu-kvm
   - libvirt
+  - virt-install
+  - libguestfs-tools
 
   # Applications
   - alacritty
