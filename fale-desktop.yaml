@@ -5,9 +5,9 @@ rojig:
   summary: "Fale immutable desktop OS"
   license: MIT
 
-releasever: "33"
-automatic_version_prefix: "33"
-mutate-os-release: "33"
+releasever: "34"
+automatic_version_prefix: "34"
+mutate-os-release: "34"
 
 repos:
   - fedora
@@ -178,6 +178,10 @@ packages:
   - virt-install
   - libguestfs-tools
 
+  # Flatpak support
+  - flatpak
+  - xdg-desktop-portal
+
   # Applications
   - alacritty
   - alsa-plugins-pulseaudio
@@ -194,7 +198,6 @@ packages:
   - eosrei-emojione-fonts
   - feh
   - firefox-wayland
-  - flatpak
   - fontawesome-fonts
   - freerdp
   - fwupd
@@ -222,7 +225,6 @@ packages:
   - most
   - mpv
   - neovim
-  - NetworkManager-openvpn
   - NetworkManager-tui
   - NetworkManager-wifi
   - NetworkManager-wwan
@@ -232,9 +234,8 @@ packages:
   - pcsc-lite
   - pavucontrol
   - pinentry
-  - podman
-  - pulseaudio
-  - pulseaudio-utils
+  - pipewire-pulseaudio
+  - pipewire-utils
   - pulseeffects
   - s3cmd
   - sshfs
