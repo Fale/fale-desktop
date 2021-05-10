@@ -229,6 +229,7 @@ packages:
   - NetworkManager-wifi
   - NetworkManager-wwan
   - openssl
+  - openvpn
   - overpass-fonts
   - overpass-mono-fonts
   - pcsc-lite
@@ -237,6 +238,7 @@ packages:
   - pipewire-pulseaudio
   - pipewire-utils
   - pulseeffects
+  - qutebrowser
   - s3cmd
   - sshfs
   - sway
