@@ -238,7 +238,6 @@ packages:
   - pipewire-pulseaudio
   - pipewire-utils
   - pulseeffects
-  - qutebrowser
   - s3cmd
   - sshfs
   - sway
