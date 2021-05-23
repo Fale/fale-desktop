@@ -246,6 +246,7 @@ packages:
   - task
   - tig
   - upower
+  - wf-recorder
   - wget
   - whois
   - xdg-utils
