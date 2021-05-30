@@ -250,6 +250,7 @@ packages:
   - wget
   - whois
   - xdg-utils
+  - xournalpp
   - xrdb
   - zathura
   - zathura-plugins-all
