@@ -190,6 +190,7 @@ packages:
   - bash-completion
   - bind-utils
   - brightnessctl
+  - chromium-freeworld
   - chrony
   - curl
   - dejavu-fonts-all
