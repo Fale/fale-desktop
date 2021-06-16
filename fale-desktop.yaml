@@ -235,6 +235,7 @@ packages:
   - overpass-mono-fonts
   - pcsc-lite
   - pavucontrol
+  - pdf-stapler
   - pinentry
   - pipewire-pulseaudio
   - pipewire-utils
