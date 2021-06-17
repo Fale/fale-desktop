@@ -240,6 +240,8 @@ packages:
   - pipewire-pulseaudio
   - pipewire-utils
   - pulseeffects
+  - remmina
+  - remmina-plugins-rdp
   - s3cmd
   - sshfs
   - sway
