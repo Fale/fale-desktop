@@ -202,6 +202,7 @@ packages:
   - fontawesome-fonts
   - freerdp
   - fwupd
+  - gimp
   - git
   - git-annex
   - golang
@@ -221,6 +222,7 @@ packages:
   - hugo
   - i3status
   - ImageMagick
+  - libreoffice
   - make
   - mesa-dri-drivers
   - most
