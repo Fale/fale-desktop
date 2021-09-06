@@ -186,6 +186,7 @@ packages:
   - alacritty
   - alsa-plugins-pulseaudio
   - alsa-utils
+  - arm-image-installer
   - awscli
   - bash-completion
   - bind-utils
