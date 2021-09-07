@@ -253,6 +253,7 @@ packages:
   - task
   - tig
   - upower
+  - wireguard-tools
   - wf-recorder
   - wget
   - whois
