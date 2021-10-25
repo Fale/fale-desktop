@@ -1,6 +1,7 @@
 [copr:copr.fedorainfracloud.org:daftaupe:gopass]
 name=Copr repo for gopass owned by daftaupe
-baseurl=https://download.copr.fedorainfracloud.org/results/daftaupe/gopass/fedora-$releasever-$basearch/
+#baseurl=https://download.copr.fedorainfracloud.org/results/daftaupe/gopass/fedora-$releasever-$basearch/
+baseurl=https://download.copr.fedorainfracloud.org/results/daftaupe/gopass/fedora-34-$basearch/
 type=rpm-md
 skip_if_unavailable=True
 gpgcheck=1

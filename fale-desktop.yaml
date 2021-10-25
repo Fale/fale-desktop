@@ -5,9 +5,9 @@ rojig:
   summary: "Fale immutable desktop OS"
   license: MIT
 
-releasever: "34"
-automatic_version_prefix: "34"
-mutate-os-release: "34"
+releasever: "35"
+automatic_version_prefix: "35"
+mutate-os-release: "35"
 
 repos:
   - fedora
