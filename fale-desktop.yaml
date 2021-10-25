@@ -243,6 +243,7 @@ packages:
   - pipewire-pulseaudio
   - pipewire-utils
   - pulseeffects
+  - qbittorrent
   - remmina
   - remmina-plugins-rdp
   - s3cmd
