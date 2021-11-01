@@ -220,6 +220,7 @@ packages:
   - gstreamer1-plugins-good-gtk
   - gstreamer1-plugins-good-qt
   - gstreamer1-libav
+  - httpie
   - hugo
   - i3status
   - ImageMagick
