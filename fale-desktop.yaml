@@ -189,6 +189,7 @@ packages:
   - arm-image-installer
   - awscli
   - bash-completion
+  - bemenu
   - bind-utils
   - brightnessctl
   - chromium-freeworld
