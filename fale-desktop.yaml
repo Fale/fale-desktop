@@ -199,6 +199,8 @@ packages:
   - dejavu-sans-mono-fonts
   - dejavu-serif-fonts
   - eosrei-emojione-fonts
+  - fedora-packager
+  - fedora-packager-kerberos
   - feh
   - firefox-wayland
   - fontawesome-fonts
