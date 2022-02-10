@@ -207,6 +207,7 @@ packages:
   - gimp
   - git
   - git-annex
+  - goaccess
   - golang
   - golang-github-acme-lego
   - gopass # from https://copr.fedorainfracloud.org/coprs/daftaupe/gopass/
