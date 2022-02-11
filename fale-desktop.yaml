@@ -226,6 +226,7 @@ packages:
   - hugo
   - i3status
   - ImageMagick
+  - jrnl
   - libreoffice
   - make
   - mesa-dri-drivers
