@@ -15,6 +15,7 @@ repos:
   - rpmfusion-free
   - rpmfusion-free-updates
   - copr:copr.fedorainfracloud.org:daftaupe:gopass
+  - copr:copr.fedorainfracloud.org:fale:grpc
 
 install-langs:
   - en_US
@@ -208,7 +209,6 @@ packages:
   - git
   - git-annex
   - goaccess
-  - golang
   - golang-github-acme-lego
   - gopass # from https://copr.fedorainfracloud.org/coprs/daftaupe/gopass/
   - gstreamer1-plugins-bad-free
@@ -274,3 +274,11 @@ packages:
   - fedora-packager-kerberos
   - fedora-review
   - go2rpm
+
+  # Golang and protobuf
+  - golang
+  - golang-github-grpc-ecosystem-gateway-2 # from http://copr.fedorainfracloud.org/coprs/fale/grpc/
+  - golang-google-grpc # from http://copr.fedorainfracloud.org/coprs/fale/grpc/
+  - golang-google-protobuf
+  - googleapis # from http://copr.fedorainfracloud.org/coprs/fale/grpc/
+  - protobuf-compiler
