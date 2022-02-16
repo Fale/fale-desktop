@@ -282,3 +282,4 @@ packages:
   - golang-google-protobuf
   - googleapis # from http://copr.fedorainfracloud.org/coprs/fale/grpc/
   - protobuf-compiler
+  - protobuf-devel
