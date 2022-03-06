@@ -270,6 +270,10 @@ packages:
   - zathura-plugins-all
   - zbar
 
+  # Anisble
+  - ansible
+  - ansible-lint
+
   # Fedora packaging
   - fedora-packager
   - fedora-packager-kerberos
