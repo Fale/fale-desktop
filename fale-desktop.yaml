@@ -233,6 +233,7 @@ packages:
   - most
   - mpv
   - neovim
+  - neovim-ale
   - NetworkManager-tui
   - NetworkManager-wifi
   - NetworkManager-wwan
