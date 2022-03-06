@@ -237,6 +237,7 @@ packages:
   - NetworkManager-tui
   - NetworkManager-wifi
   - NetworkManager-wwan
+  - obs-studio
   - openssl
   - openvpn
   - overpass-fonts
@@ -259,6 +260,7 @@ packages:
   - task
   - tig
   - upower
+  - v4l2loopback
   - wireguard-tools
   - wf-recorder
   - wget
