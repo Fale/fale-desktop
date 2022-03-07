@@ -242,7 +242,6 @@ packages:
   - openvpn
   - overpass-fonts
   - overpass-mono-fonts
-  - pcsc-lite
   - pavucontrol
   - pdf-stapler
   - pinentry
@@ -290,3 +289,8 @@ packages:
   - googleapis # from http://copr.fedorainfracloud.org/coprs/fale/grpc/
   - protobuf-compiler
   - protobuf-devel
+
+  # PC/SC
+  - opensc
+  - pcsc-lite
+  - pcsc-tools
