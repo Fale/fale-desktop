@@ -277,6 +277,7 @@ packages:
   # Fedora packaging
   - fedora-packager
   - fedora-packager-kerberos
+  - fedora-repos-rawhide
   - fedora-review
   - go2rpm
 
