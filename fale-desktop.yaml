@@ -286,7 +286,7 @@ packages:
   - golang-github-grpc-ecosystem-gateway-2
   - golang-google-grpc # from http://copr.fedorainfracloud.org/coprs/fale/grpc/
   - golang-google-protobuf
-  - googleapis # from http://copr.fedorainfracloud.org/coprs/fale/grpc/
+  - googleapis
   - protobuf-compiler
   - protobuf-devel
 
