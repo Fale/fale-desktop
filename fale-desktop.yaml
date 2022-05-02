@@ -290,6 +290,28 @@ packages:
   - protobuf-compiler
   - protobuf-devel
 
+  # LaTeX
+  - texlive
+  - texlive-babel-italian.noarch
+  - texlive-cdpbundl
+  - texlive-collection-latex
+  - texlive-collection-latexrecommended
+  - texlive-collection-xetex
+  - texlive-datetime2
+  - texlive-fontawesome
+  - texlive-glossaries
+  - texlive-hyphenat
+  - texlive-latex
+  - texlive-layaureo
+  - texlive-makecell
+  - texlive-simple-resume-cv
+  - texlive-supertabular
+  - texlive-tinos
+  - texlive-xetex
+  - texlive-xetex-def
+  - texlive-xltxtra
+  - texlive-textpos
+
   # PC/SC
   - opensc
   - pcsc-lite
