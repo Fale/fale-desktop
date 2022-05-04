@@ -14,7 +14,6 @@ repos:
   - fedora-updates
   - rpmfusion-free
   - rpmfusion-free-updates
-  - copr:copr.fedorainfracloud.org:fale:grpc
 
 install-langs:
   - en_US
@@ -208,6 +207,7 @@ packages:
   - git
   - git-annex
   - goaccess
+  - golang
   - golang-github-acme-lego
   - gopass
   - gstreamer1-plugins-bad-free
@@ -280,15 +280,6 @@ packages:
   - fedora-repos-rawhide
   - fedora-review
   - go2rpm
-
-  # Golang and protobuf
-  - golang
-  - golang-github-grpc-ecosystem-gateway-2
-  - golang-google-grpc # from http://copr.fedorainfracloud.org/coprs/fale/grpc/
-  - golang-google-protobuf
-  - googleapis
-  - protobuf-compiler
-  - protobuf-devel
 
   # LaTeX
   - texlive
