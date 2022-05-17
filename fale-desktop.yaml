@@ -258,7 +258,6 @@ packages:
   - task
   - tig
   - upower
-  - v4l2loopback
   - wireguard-tools
   - wf-recorder
   - wget
