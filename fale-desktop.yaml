@@ -306,3 +306,4 @@ packages:
   - opensc
   - pcsc-lite
   - pcsc-tools
+  - pdfsign
