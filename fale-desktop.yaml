@@ -225,6 +225,7 @@ packages:
   - hugo
   - i3status
   - ImageMagick
+  - java-latest-openjdk
   - jrnl
   - libreoffice
   - make
