@@ -239,7 +239,6 @@ packages:
   - NetworkManager-wwan
   - obs-studio
   - openssl
-  - openvpn
   - overpass-fonts
   - overpass-mono-fonts
   - pavucontrol
@@ -248,9 +247,6 @@ packages:
   - pipewire-pulseaudio
   - pipewire-utils
   - pulseeffects
-  - qbittorrent
-  - remmina
-  - remmina-plugins-rdp
   - s3cmd
   - sshfs
   - sway
@@ -259,7 +255,6 @@ packages:
   - task
   - tig
   - upower
-  - wireguard-tools
   - wf-recorder
   - wget
   - whois
@@ -302,6 +297,13 @@ packages:
   - texlive-xetex-def
   - texlive-xltxtra
   - texlive-textpos
+
+  # Network
+  - nebula
+  - openvpn
+  - qbittorrent
+  - remmina
+  - remmina-plugins-rdp
 
   # PC/SC
   - opensc
