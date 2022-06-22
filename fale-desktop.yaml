@@ -210,6 +210,7 @@ packages:
   - golang
   - golang-github-acme-lego
   - gopass
+  - gopass-hibp
   - gstreamer1-plugins-bad-free
   - gstreamer1-plugins-bad-free-extras
   - gstreamer1-plugins-bad-free-fluidsynth
@@ -224,6 +225,7 @@ packages:
   - httpie
   - hugo
   - i3status
+  - inkscape
   - ImageMagick
   - java-latest-openjdk
   - jrnl
@@ -279,10 +281,12 @@ packages:
   # LaTeX
   - texlive
   - texlive-babel-italian.noarch
+  - texlive-beamertheme-metropolis
   - texlive-cdpbundl
   - texlive-collection-latex
   - texlive-collection-latexrecommended
   - texlive-collection-xetex
+  - texlive-comfortaa
   - texlive-datetime2
   - texlive-fontawesome
   - texlive-glossaries
@@ -290,13 +294,15 @@ packages:
   - texlive-latex
   - texlive-layaureo
   - texlive-makecell
+  - texlive-pgfopts
   - texlive-simple-resume-cv
   - texlive-supertabular
+  - texlive-textpos
   - texlive-tinos
+  - texlive-ulem
   - texlive-xetex
   - texlive-xetex-def
   - texlive-xltxtra
-  - texlive-textpos
 
   # Network
   - nebula
