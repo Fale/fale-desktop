@@ -279,6 +279,7 @@ packages:
   - go2rpm
 
   # LaTeX
+  - redhat-text-fonts
   - texlive
   - texlive-babel-italian.noarch
   - texlive-beamertheme-metropolis
