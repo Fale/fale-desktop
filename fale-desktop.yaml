@@ -279,6 +279,8 @@ packages:
   - go2rpm
 
   # LaTeX
+  - redhat-display-fonts
+  - redhat-mono-fonts
   - redhat-text-fonts
   - texlive
   - texlive-babel-italian.noarch
