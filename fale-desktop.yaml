@@ -250,6 +250,7 @@ packages:
   - pipewire-utils
   - pulseeffects
   - s3cmd
+  - screen
   - sshfs
   - sway
   - swaylock
