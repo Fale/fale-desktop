@@ -320,3 +320,7 @@ packages:
   - pcsc-lite
   - pcsc-tools
   - pdfsign
+
+  # OSBuild
+  - osbuild
+  - osbuild-tools
